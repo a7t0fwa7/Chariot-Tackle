@@ -27,9 +27,6 @@ int main() {
 
 
 
-
-
-
 	//	-- Calling NtAllocateVirtualMemory
 	
 	status = ctCall(NtAllocateVirtualMemory,
