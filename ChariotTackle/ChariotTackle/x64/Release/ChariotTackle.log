@@ -1,7 +1,0 @@
-﻿  Assembling ChariotTackleAsm.asm...
-  example.cpp
-E:\ChariotTackle\ChariotTackle\ChariotTackle.h(669,12): warning C4267: 'return': conversion from 'size_t' to 'WORD', possible loss of data
-E:\ChariotTackle\ChariotTackle\ChariotTackle.h(441): warning C4715: 'SyscallTree::insertNewNode': not all control paths return a value
-  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
-example.obj : warning LNK4210: .CRT section exists; there may be unhandled static initializers or terminators
-  ChariotTackle.vcxproj -> E:\ChariotTackle\ChariotTackle\x64\Release\ChariotTackle.exe
