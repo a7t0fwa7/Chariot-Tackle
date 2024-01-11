@@ -6,19 +6,13 @@
 
 
 volatile unsigned char g_SyscallOpcodeFirst = 0x16;				//16 ^ 25 = 0x0F
-volatile unsigned char g_SyscallOpcodeSecond = 0x1C;			//1C ^ 25 = 0x05
+volatile unsigned char g_SyscallOpcodeSecond = 0x1C;				//1C ^ 25 = 0x05
 
 
 
 
 extern "C" void SetSyscallValues(WORD SSN, PVOID syscallOpcodeAddress);
 extern "C" NTSTATUS SyscallGeneric(...);
-
-
-
-
-//loads ntdll if it isn't already loaded. Custom loader logic can go here if need be.
-
 
 
 
